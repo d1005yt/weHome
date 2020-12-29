@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: '/api',
+  baseURL: '/we',
   timeout: 15000, // 指定处理请求超时时间
 })
 
